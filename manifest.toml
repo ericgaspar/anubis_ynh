@@ -14,7 +14,7 @@ maintainers = ["eric_G"]
 [upstream]
 license = "MIT"
 website = "https://anubis.techaro.lol/"
-admindoc = "https://yunohost.org/packaging_apps"
+admindoc = "https://anubis.techaro.lol/docs/admin/installation"
 code = "https://github.com/TecharoHQ/anubis"
 
 [integration]
@@ -52,8 +52,6 @@ ram.runtime = "50M"
     [resources.system_user]
 
     [resources.install_dir]
- 
-    [resources.data_dir]
 
     [resources.permissions]
     main.url = "/"
